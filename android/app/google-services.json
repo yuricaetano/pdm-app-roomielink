@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "118159601742",
+    "project_id": "yuripdm-94c4d",
+    "storage_bucket": "yuripdm-94c4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118159601742:android:9aedb0a9cadd0091ae131f",
+        "android_client_info": {
+          "package_name": "com.mytestapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIuC6RaE1NLXEWgzQtZU9-8uW6WG1yzDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
