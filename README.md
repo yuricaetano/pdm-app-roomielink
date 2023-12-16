@@ -1,12 +1,7 @@
 
-![Logo](https://github.com/yuricaetano/pdm-app-roomielink/blob/main/src/assets/images/logo.png?raw=true)
-
-
-
-
-
+# Vamos Começar! 🚀
 O RoomieLink é um aplicativo desenvolvido em React Native, integrado ao Firebase, que oferece uma plataforma avançada e intuitiva para simplificar a experiência de convivência e busca por moradia. Utilizando a API dos Maps para localização, o aplicativo oferece funcionalidades completas, incluindo CRUD de imóveis e proprietários, upload de imagens para os imóveis, pesquisa por cidade nos imóveis e por nome nos proprietários, além de cadastro de usuário com autenticação por e-mail e recuperação de senha. O sistema também conta com notificações para manter os usuários atualizados.
-## Funcionalidades
+## Funcionalidades 🛠️
 1. Autenticação de Usuário
 O RoomieLink oferece um sistema robusto de autenticação de usuários, permitindo o cadastro seguro e autenticação por e-mail. Além disso, inclui um processo eficiente de recuperação de senha para garantir a acessibilidade contínua.
 
@@ -27,7 +22,7 @@ A integração com a API dos Maps oferece uma visualização geográfica dos im�
 
 7. Notificações
 O sistema de notificações mantém os usuários informados sobre atualizações importantes, garantindo uma experiência completa e engajadora.
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 🖥️
 
 Frontend:
 
@@ -37,7 +32,7 @@ Frontend:
 Backend:
 
 * Firebase
-## Instalação
+## Instalação 🛠️
 
 Para iniciar o RoomieLink em seu ambiente local, siga estas etapas:
 
@@ -53,14 +48,13 @@ git clone https://github.com/yuricaetano/pdm-app-roomielink
 
 4. Inicie o Aplicativo:
 npx react-native start
-
-## Documentação
+## Documentação 📚
 
 [React-Native](https://reactnative.dev/docs/getting-started)
 
 [Firebase](https://firebase.google.com/docs?hl=pt-br)
 
-## Documentação de cores
+## Documentação de cores 🎨
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
@@ -69,3 +63,6 @@ npx react-native start
 | Cinza       | ![#4E4E4E](https://via.placeholder.com/10/4E4E4E?text=+) #4E4E4E |
 
 
+
+## Logo 🖼️
+![Logo](https://github.com/yuricaetano/pdm-app-roomielink/blob/main/src/assets/images/logo.png?raw=true)
