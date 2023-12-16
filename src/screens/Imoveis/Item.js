@@ -31,10 +31,10 @@ export default ({item, onPress}) => {
       marginBottom: 10,
     },
     foto: {
-      width: '60%',
-      height: 100,
+      width: 300,
+      height: 200,
       // marginRight: 20,
-      borderRadius: 50 / 2,
+      borderRadius: 10 / 2,
     },
     text: {
       textAlign: 'center',

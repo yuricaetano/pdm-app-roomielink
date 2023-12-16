@@ -18,12 +18,12 @@ const Imoveis = ({navigation}) => {
   const {imoveis} = useContext(ImovelContext);
   const [imoveisTemp, setImoveisTemp] = useState([]);
 
-  const filterByTipo = text => {
+  const filterByCidade = text => {
     if (text !== '') {
       let a = [];
       a.push(
         ...imoveis.filter(e =>
-          e.tipo.toLowerCase().includes(text.toLowerCase()),
+          e.cidade.toLowerCase().includes(text.toLowerCase()),
         ),
       );
       if (a.length > 0) {
@@ -40,7 +40,10 @@ const Imoveis = ({navigation}) => {
   }
   return (
     <Container>
-      <SearchBar text="Que tipo de imovel procura?" setSearch={filterByTipo} />
+      <SearchBar
+        text="Que local você deseja morar?"
+        setSearch={filterByCidade}
+      />
       <FlatList
         data={imoveisTemp.length > 0 ? imoveisTemp : imoveis}
         renderItem={({item}) => (

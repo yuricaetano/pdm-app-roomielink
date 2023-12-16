@@ -56,7 +56,7 @@ function AppStack() {
               type="ionicon"
               name="business"
               color={theme.colors.primary}
-              size={20}
+              size={30}
             />
           ),
         }}
@@ -71,7 +71,7 @@ function AppStack() {
               type="ionicon"
               name="list"
               color={theme.colors.primary}
-              size={20}
+              size={30}
             />
           ),
         }}
@@ -86,7 +86,7 @@ function AppStack() {
               type="ionicon"
               name="people"
               color={theme.colors.primary}
-              size={20}
+              size={30}
             />
           ),
         }}
@@ -101,7 +101,7 @@ function AppStack() {
               type="ionicon"
               name="map-sharp"
               color={theme.colors.primary}
-              size={20}
+              size={30}
             />
           ),
         }}
@@ -116,7 +116,7 @@ function AppStack() {
               type="ionicon"
               name="notifications"
               color={theme.colors.primary}
-              size={20}
+              size={30}
             />
           ),
         }}

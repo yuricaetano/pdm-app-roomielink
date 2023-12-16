@@ -29,9 +29,7 @@ const SignUp = ({navigation}) => {
         let user = {};
         user.nome = nome;
         user.email = email;
-        // user.perfil = 'aluno';
         setLoading(true);
-        //TODO: troquei o user.email para user
         msgError = await cadastrar(user, senha);
         if (msgError === 'ok') {
           setLoading(false);

@@ -21,7 +21,7 @@ const Cliente = ({route, navigation}) => {
   useEffect(() => {
     if (route.params.cliente) {
       setNome(route.params.cliente.nome);
-      setCreci(route.params.cliente.telefone);
+      setTelefone(route.params.cliente.telefone);
       setUid(route.params.cliente.uid);
     }
   }, [route]);

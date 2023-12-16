@@ -11,7 +11,7 @@ export const ImovelProvider = ({children}) => {
   useEffect(() => {
     const listener = firestore()
       .collection('imoveis')
-      .orderBy('tipo')
+      .orderBy('cidade')
       .onSnapshot(snapshot => {
         if (snapshot) {
           let data = [];

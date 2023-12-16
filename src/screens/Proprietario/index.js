@@ -130,7 +130,7 @@ export default ({route, navigation}) => {
           leftIcon={
             <Icon
               type="ionicon"
-              name="person-outline"
+              name="mail-outline"
               size={22}
               color={theme.colors.grey2}
             />

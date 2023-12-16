@@ -197,8 +197,8 @@ export default ({navigation}) => {
           returnKeyType="next"
           leftIcon={
             <Icon
-              type="material-community"
-              name="email-check-outline"
+              type="ionicon"
+              name="mail-outline"
               size={22}
               color={theme.colors.grey2}
             />
@@ -213,16 +213,16 @@ export default ({navigation}) => {
           leftIcon={
             showPass ? (
               <Icon
-                type="material-community"
-                name="form-textbox-password"
+                type="ionicon"
+                name="lock-closed-outline"
                 size={22}
                 color={theme.colors.grey2}
                 onPress={() => setShowPass(false)}
               />
             ) : (
               <Icon
-                type="material-community"
-                name="form-textbox-password"
+                type="ionicon"
+                name="lock-closed-outline"
                 size={22}
                 color={theme.colors.error}
                 onPress={() => setShowPass(true)}
@@ -240,16 +240,16 @@ export default ({navigation}) => {
           leftIcon={
             showPass ? (
               <Icon
-                type="material-community"
-                name="form-textbox-password"
+                type="ionicon"
+                name="lock-closed-outline"
                 size={22}
                 color={theme.colors.grey2}
                 onPress={() => setShowPass(false)}
               />
             ) : (
               <Icon
-                type="material-community"
-                name="form-textbox-password"
+                type="ionicon"
+                name="lock-closed-outline"
                 size={22}
                 color={theme.colors.error}
                 onPress={() => setShowPass(true)}
@@ -267,16 +267,16 @@ export default ({navigation}) => {
           leftIcon={
             showPass ? (
               <Icon
-                type="material-community"
-                name="form-textbox-password"
+                type="ionicon"
+                name="checkmark-circle-outline"
                 size={22}
                 color={theme.colors.grey2}
                 onPress={() => setShowPass(false)}
               />
             ) : (
               <Icon
-                type="material-community"
-                name="form-textbox-password"
+                type="ionicon"
+                name="checkmark-circle-outline"
                 size={22}
                 color={theme.colors.error}
                 onPress={() => setShowPass(true)}

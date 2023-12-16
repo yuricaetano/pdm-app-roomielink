@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "118159601742",
-    "project_id": "yuripdm-94c4d",
-    "storage_bucket": "yuripdm-94c4d.appspot.com"
+    "project_number": "39422576232",
+    "project_id": "pdm-2023-cb6b3",
+    "storage_bucket": "pdm-2023-cb6b3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:118159601742:android:9aedb0a9cadd0091ae131f",
+        "mobilesdk_app_id": "1:39422576232:android:1d6d394ae829a320b21ddd",
         "android_client_info": {
           "package_name": "com.mytestapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAIuC6RaE1NLXEWgzQtZU9-8uW6WG1yzDw"
+          "current_key": "AIzaSyC9cawMc4ULocbdkyhUYEAkhuBo6MW8nYE"
         }
       ],
       "services": {

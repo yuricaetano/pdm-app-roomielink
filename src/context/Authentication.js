@@ -62,7 +62,7 @@ export const AuthenticationProvider = ({children}) => {
         .set(localUser);
       return 'ok';
     } catch (e) {
-      console.error('signUp');
+      console.error(e);
       return launchServerMessageErro(e);
     }
   }

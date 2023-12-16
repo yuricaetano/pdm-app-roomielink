@@ -74,7 +74,7 @@ const Imovel = ({route, navigation}) => {
   const excluir = async () => {
     Alert.alert(
       'Opa! Fique esperto.',
-      'Você tem certeza que deseja excluir o aluno?',
+      'Você tem certeza que deseja excluir o imóvel?',
       [
         {
           text: 'Não',
@@ -187,7 +187,7 @@ const Imovel = ({route, navigation}) => {
           leftIcon={
             <Icon
               type="ionicon"
-              name="person-outline"
+              name="home-outline"
               size={22}
               color={theme.colors.grey2}
             />
@@ -202,7 +202,7 @@ const Imovel = ({route, navigation}) => {
           leftIcon={
             <Icon
               type="ionicon"
-              name="person-outline"
+              name="location-outline"
               size={22}
               color={theme.colors.grey2}
             />
@@ -217,7 +217,7 @@ const Imovel = ({route, navigation}) => {
           leftIcon={
             <Icon
               type="ionicon"
-              name="person-outline"
+              name="navigate-outline"
               size={22}
               color={theme.colors.grey2}
             />
@@ -232,7 +232,7 @@ const Imovel = ({route, navigation}) => {
           leftIcon={
             <Icon
               type="ionicon"
-              name="person-outline"
+              name="business-outline"
               size={22}
               color={theme.colors.grey2}
             />
@@ -247,7 +247,7 @@ const Imovel = ({route, navigation}) => {
           leftIcon={
             <Icon
               type="ionicon"
-              name="person-outline"
+              name="location-outline"
               size={22}
               color={theme.colors.grey2}
             />

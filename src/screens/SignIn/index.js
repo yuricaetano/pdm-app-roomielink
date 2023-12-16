@@ -130,8 +130,8 @@ const styles = StyleSheet.create({
     paddingBottom: 1,
   },
   textEsqueceuSenha: {
-    fontSize: 15,
-    color: COLORS.accentSecundary,
+    fontSize: 20,
+    color: COLORS.accent,
     alignSelf: 'flex-end',
     marginTop: 10,
     marginBottom: 10,
@@ -166,8 +166,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
   textCadastrarSe: {
-    fontSize: 16,
-    color: COLORS.accentSecundary,
+    fontSize: 20,
+    color: COLORS.accent,
     marginLeft: 5,
   },
 });
