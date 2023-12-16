@@ -1,79 +1,71 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+![Logo](https://github.com/yuricaetano/pdm-app-roomielink/blob/main/src/assets/images/logo.png?raw=true)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
 
-```bash
-# using npm
-npm start
+O RoomieLink é um aplicativo desenvolvido em React Native, integrado ao Firebase, que oferece uma plataforma avançada e intuitiva para simplificar a experiência de convivência e busca por moradia. Utilizando a API dos Maps para localização, o aplicativo oferece funcionalidades completas, incluindo CRUD de imóveis e proprietários, upload de imagens para os imóveis, pesquisa por cidade nos imóveis e por nome nos proprietários, além de cadastro de usuário com autenticação por e-mail e recuperação de senha. O sistema também conta com notificações para manter os usuários atualizados.
+## Funcionalidades
+1. Autenticação de Usuário
+O RoomieLink oferece um sistema robusto de autenticação de usuários, permitindo o cadastro seguro e autenticação por e-mail. Além disso, inclui um processo eficiente de recuperação de senha para garantir a acessibilidade contínua.
 
-# OR using Yarn
-yarn start
-```
+2. Cadastro e Gerenciamento de Proprietários
+Os usuários podem cadastrar e gerenciar informações detalhadas sobre os proprietários de imóveis, facilitando a comunicação e o entendimento entre as partes envolvidas.
 
-## Step 2: Start your Application
+3. CRUD de Imóveis
+O aplicativo oferece um sistema completo de CRUD (Create, Read, Update, Delete) para os imóveis, permitindo que os usuários publiquem, visualizem, editem e excluam informações sobre os imóveis disponíveis.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+4. Upload de Imagens
+Facilitando a apresentação visual dos imóveis, o RoomieLink permite o upload de imagens para cada propriedade, proporcionando aos usuários uma visão mais detalhada e atrativa.
 
-### For Android
+5. Pesquisa Avançada
+Os usuários podem realizar pesquisas avançadas por cidade nos imóveis e por nome nos proprietários, tornando o processo de encontrar a moradia ideal mais rápido e preciso.
 
-```bash
-# using npm
-npm run android
+6. Integração com Mapas
+A integração com a API dos Maps oferece uma visualização geográfica dos imóveis, facilitando a localização e a compreensão da vizinhança.
 
-# OR using Yarn
-yarn android
-```
+7. Notificações
+O sistema de notificações mantém os usuários informados sobre atualizações importantes, garantindo uma experiência completa e engajadora.
+## Tecnologias Utilizadas
 
-### For iOS
+Frontend:
 
-```bash
-# using npm
-npm run ios
+* React Native
+* API dos Maps
 
-# OR using Yarn
-yarn ios
-```
+Backend:
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+* Firebase
+## Instalação
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Para iniciar o RoomieLink em seu ambiente local, siga estas etapas:
 
-## Step 3: Modifying your App
+1. Clone o repositório
+git clone https://github.com/yuricaetano/pdm-app-roomielink
 
-Now that you have successfully run the app, let's modify it.
+2. Instale as Dependências:
+* cd roomieLink
+* npm install ou yarn install
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+3. Configuração do Ambiente:
+* Configure as variáveis de ambiente necessárias, como chaves de API e configurações do Firebase.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+4. Inicie o Aplicativo:
+npx react-native start
 
-## Congratulations! :tada:
+## Documentação
 
-You've successfully run and modified your React Native App. :partying_face:
+[React-Native](https://reactnative.dev/docs/getting-started)
 
-### Now what?
+[Firebase](https://firebase.google.com/docs?hl=pt-br)
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+## Documentação de cores
 
-# Troubleshooting
+| Cor               | Hexadecimal                                                |
+| ----------------- | ---------------------------------------------------------------- |
+| Azul      | ![#276FC2](https://via.placeholder.com/10/276FC2?text=+) #276FC2 |
+| Laranja    | ![#FF8536](https://via.placeholder.com/10/FF8536?text=+) #FF8536 |
+| Cinza       | ![#4E4E4E](https://via.placeholder.com/10/4E4E4E?text=+) #4E4E4E |
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
