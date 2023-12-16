@@ -65,4 +65,4 @@ npx react-native start
 
 
 ## Logo 🖼️
-![Logo](https://github.com/yuricaetano/pdm-app-roomielink/blob/main/src/assets/images/logo.png?raw=true)
+![Logo](https://github.com/yuricaetano/pdm-app-roomielink/blob/main/src/assets/images/logo_white.png?raw=true)
